@@ -152,10 +152,6 @@ angular.module('RightAmount', ['ngRoute','ngSanitize'])
         };
         
 
-        $scope.compile = function(){
-            $scope.compiler.sol($scope.number, $scope.numbers);
-        };
-        
-        $scope.compile();
+        $scope.compiler.sol($scope.number, $scope.numbers);
 
  }]);

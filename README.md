@@ -4,6 +4,9 @@
 
 Help to get a number with six other number.
 
+![Built with Grunt](demo.png)
+
+
 To test:
 ```bash
 $ npm install -g fast-http-cli

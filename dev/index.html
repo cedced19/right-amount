@@ -25,7 +25,7 @@
             <input type="text" ng-model="numbers[3]"> 
             <input type="text" ng-model="numbers[4]"> 
             <input type="text" ng-model="numbers[5]">
-            <a class="btn" ng-click="compile()">Calcul</a>
+            <a class="btn" ng-click="compiler.sol(number, numbers)">Calcul</a>
             <h3>Result:</h3>
             <div ng-bind-html="compiler.r"></div> 
         </main>
