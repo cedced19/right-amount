@@ -1,11 +1,8 @@
 #Right Amount
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-
 Help to get a number with six other number.
 
-![Built with Grunt](demo.png)
-
+![Demo](demo.png)
 
 To test:
 ```bash
@@ -16,10 +13,10 @@ $ fast-http -o
 To compile:
 ```bash
 $ npm install
-$ npm install -g grunt-cli
-$ grunt
+$ npm install -g gulp
+$ gulp
 ```
 
-See `Gruntfile.js` for task config.
+See `gulpfile.js` for task config.
 
 
